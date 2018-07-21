@@ -1,0 +1,183 @@
+ html {
+    
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    font-family: 'Noticia Text', serif;
+     }
+
+.navbar {
+   
+    
+    overflow: hidden;
+   width: 100%
+    
+    
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+   
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    height: -15px;
+    
+    background-color: #ddd;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #C0C0C0;
+    color: white;
+}
+.backgroundcontact{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom:1px;
+    left:-1px;
+    z-index: -15;
+}
+
+.textecontact {
+    
+    font-size:25px;
+    color: #FB8B0E;
+    
+}
+
+.suggestion {
+    position: absolute;
+    top:5px;
+    left:300px;
+}
+.commande {
+    position: absolute;
+    top:35px;
+    left:350px;
+
+}
+.contactez {
+    position: absolute;
+    top:65px;
+    left:500px;
+
+}
+
+.barre {
+    color:#fff;
+    position: absolute;
+     top:245px;
+    left:120px;
+    border-top: 3px solid #000; 
+    font-size: 15px;
+    font-family: arial;
+    top: 750px;
+    left:500px;
+}
+.textform {
+    color: #FB8B0E;
+    font-size: 40px;
+    position: absolute;
+    top:800px;
+    left:470px;
+}
+.barre2 {
+    color:#FB8B0E;
+    position: absolute;
+     top:245px;
+    left:120px;
+    border-top: 3px solid #000; 
+    font-size: 15px;
+    font-family: arial;
+    top: 870px;
+    left:470px;
+}
+.form {
+    
+    position: absolute;
+    top:1050px;
+    left:500px;
+    color:white;
+    
+    }
+.votrenom {
+    position: absolute;
+    bottom:100px;
+    height: 30px;
+    width:400px;
+    border-radius: 50px;
+    font-family: 'Noticia Text', serif;
+}
+.votremail {
+    position: absolute;
+    bottom: 50px;
+    height: 25px;
+    width:400px;
+    border-radius: 50px;
+    font-family: 'Noticia Text', serif;
+}
+.message { 
+    position: absolute;
+    top:15px;
+    height: 120px;
+    width:400px;
+    border-radius: 20px;
+    font-family: 'Noticia Text', serif;
+    
+}
+
+.boutonenvoyer { 
+    position: absolute;
+    top:160px;
+    left:55px;
+    height: 50px;
+    width:300px;
+    border-radius: 20px;
+    background-color:  #FB8B0E;
+    color:white;
+    font-family: 'Noticia Text', serif;
+}
+
+.twitter {
+    position: absolute;
+    top:650px;
+    height: 40%;
+    left: 250px;
+    
+}
+
+.facebook {
+    position: absolute;
+    top:650px;
+    height: 40%;
+    left: 325px;
+}
+.instagram {
+    position: absolute;
+    top:650px;
+    height: 40%;
+    left: 400px;
+}
+
+.twitter:hover,.facebook:hover,.instagram:hover {
+    
+    color:white;
+    opacity: 0.5;
+}
+
+input:hover {
+    
+    color:white;
+    opacity: 0.5;
+    
+}
