@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: 'Noticia Text', serif;
+}
+
+
+
+
+.fromagerie {
+    color:#FFA53F;
+    position: absolute;
+    top:180px;
+    left:110px;
+}
+.simplon {
+    color:#FFA53F;
+    position: absolute;
+    top:210px;
+    left:110px;
+}
+.descriptionaccueil {
+    color:#FFA53F;
+    position: absolute;
+    top:270px;
+    left:120px;
+    text-align: center;
+    
+}
+.barre {
+    color:#FFA53F;
+    position: absolute;
+     top:245px;
+    left:120px;
+    border-top: 3px solid #000; 
+    font-size: 15px;
+    font-family: arial;
+}
+.boutonentrer{
+    position: absolute;
+    top:400px;
+    left:200px;
+    
+     position: absolute;
+     background-color: #C0C0C0; 
+    opacity: 0.5;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     color:#FB8B0E;
+    
+}
+.boutonentrer:hover{
+    position: absolute;
+    top:400px;
+    left:200px;
+   
+     position: absolute;
+     background-color: #747474; 
+    opacity: 1;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     color:#FB8B0E;
+    
+}
+
+.imageaccueil {
+    position: absolute;
+    top:10px;
+    left:616px;
+    height:650px;
+    width: 750px;
+    z-index: -12;
+}
+.texteaccueil {
+     color:white;
+     position: absolute;
+    
+}
+
+/* Add a black background color to the top navigation */
+.navbaraccueil {
+   
+    
+    overflow: hidden;
+   width: 100%
+    
+    
+}
+
+/* Style the links inside the navigation bar */
+.navbaraccueil a {
+   
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbaraccueil a:hover {
+    height: -15px;
+    
+    background-color: #ddd;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.navbaraccueil a.active {
+    background-color: #C0C0C0;
+    color: white;
+}
